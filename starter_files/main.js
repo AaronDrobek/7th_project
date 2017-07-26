@@ -72,12 +72,12 @@ console.log(avg(12,90,33,))
 // 6.
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
-// function getLength(parameter){
-    // if (parameter=array);
-    // array.length;
-// }
+function getLength(parameter){
+      return parameter.length;
 
-// console.log(getLength(SodaPop));
+}
+
+"michigan".length;
 
 // 7.
 // Write a function called `greaterThan` that takes two parameters
@@ -115,7 +115,7 @@ greet('aaron');
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
 function madlib(word1, word2, word3, word4){
-  console.log(word1 + ' brown'  + word2 +' '+ word3 + ' over the ' + word4);
+  console.log(word1 + ' brown '  +  word2 +' '+ word3 + ' over the ' + word4);
 }
 
 madlib('quick', 'fox', 'jumps', 'fence');
